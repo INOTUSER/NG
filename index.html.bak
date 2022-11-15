@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+
+		<head>
+			<title> LANDSHOP </title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="style.css">
+			<link href="https://fonts.cdnfonts.com/css/lucida-calligraphy-new" rel="stylesheet">
+			<link href="https://fonts.cdnfonts.com/css/book-antiqua" rel="stylesheet">
+		</head>
+
+		<body>
+			<div class = "wrapper">
+			
+				<div class = "header">
+					<div class = "name"> <h1> The atmosphere of the holiday </h1> </div>
+				</div>
+				
+				<div class = "content">
+					<div class = "slogan"> <p> ‘’Как новый год встретишь, так его и проведешь’’ <br> Встреть его подготовленным! <br><br> Всего 3 постых шага. </p> </div>
+					
+					<div class = "one"> 
+						<p class = "one_one">&#9312;</p>
+					</div> 
+					
+					<div class = "one_name">
+						<p class = "one_one_name"><b>Ёлка</b></p>
+					</div>
+					
+					<div class = "one_text">
+						<p class = "one_one_text"> <b>Ель искуственная -  180 см </b> <br><br>
+									Праздничная ель является неотъемлимым символом Рождества<br>
+							Преимущества искусственного дерева в том, что оно всегда идеально выглядит,<br>
+					не требует ухода и не оставляет мусора. Такая ель неприменно украсит ваш дом или офис.
+						</p>
+					</div>
+						
+					<div class = "one_photo">
+						<div class = "limg">
+							<img src = "images/vet.jpg">
+						</div>
+						<div class = "cimg">
+							<img src = "images/st.jpg">
+						</div>
+						<div class = "rimg">
+							<img src = "images/el.jpg">
+						</div>
+					</div>
+					
+					<div class = "one"> 
+						<p class = "one_one">&#9313;</p>
+					</div> 
+					
+					<div class = "one_name">
+						<p class = "one_one_name"><b>Гирлянда</b></p>
+					</div>
+					
+					<div class = "one_text">
+						<p class = "one_one_text"> <b>Светодиодная гирлянда 200 ламп 10 м </b> <br><br>
+									Светодиодные гирлянды станут лучшем вариантом для новогоднего оформления интерьера. <br>
+										 С их помощью помещение любого размера можно превратить в праздничный зал.<br>
+                                        Такие украшения создают ауру предвкушения чуда и создают ту самую атмосферу.<br>
+						</p>
+					</div>
+						
+					<div class = "two_photo">
+						<div class = "limg">
+							<img src = "images/bel.jpg">
+						</div>
+						<div class = "cimg">
+							<img src = "images/ar.jpg">
+						</div>
+						<div class = "rimg">
+							<img src = "images/arel.jpg">
+						</div>
+					</div>
+					
+					<div class = "one"> 
+						<p class = "one_one">&#9312;</p>
+					</div> 
+					
+					<div class = "one_name">
+						<p class = "one_one_name"><b>Светодиодная гирлянда с зажимами</b></p>
+					</div>
+					
+					<div class = "one_text">
+						<p class = "one_one_text"> <b>Характеристики:</b><br><br>
+														<b>Длина: 4 метра</b><br>
+														<b>Питание: 220 v</b><br>
+										<b>	Рабочая температура: -86 °C ~ 140 °C</b><br>
+						</p>
+					</div>
+						
+					<div class = "thre_photo">
+							<div class = "limg">
+								<img src = "images/111.png">
+							</div>
+							<div class = "rimg">
+								<img src = "images/name.png">
+							</div>
+					</div>
+					
+					<div class = "prise">
+						<p class = "name_prise"><b>Цена: 5000р.</b><br></p>
+						<p class = "info_prise"><b>На весь набор, который прослужит вам не 1 год </b><br>
+                                                  <b>  и применим к разнообразным событиям </b><br>
+                                                       <b> и в повседневной жизни.</b></p>
+						<p class = "com_prise"><br><b>Цена указана без учета доставки! </b><br>
+												   <b> Возможна оплата при получении</b></p>
+						</div>
+						
+						<div class = "forma">
+							<p> TEST <p>
+							<div class = "name_form"> 
+								<form name="test" method="post" action="input1.php">
+								<p><b>Имя:</b><br>
+								<input type="text" size="40">
+								</p>
+								<p><b>Номер:</b><br>
+								<input type="text" size="40">
+								</p>
+								<p>Комментарий<Br>
+								<textarea name="comment" cols="40" rows="3"></textarea></p>
+								<p><input type="submit" value="Отправить">
+								<input type="reset" value="Очистить"></p>
+								</form>
+							</div>
+						</div>
+				</div>
+				
+				<div class = "footer">
+				</div>
+				
+			</div>
+	</body>
+
+</html>

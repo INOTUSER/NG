@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+body, html {
+    height: 100vh;
+}
+
+a {
+	text-decoration: none; 
+	color: #000000;
+}
+
+.wrapper {
+    display:grid;
+    height:100%;
+    grid-template-rows:1fr;
+	grid-template-columns:1fr;
+
+}
+
+.header {
+    display:grid;
+	justify-content:center;
+}
+
+.name {
+	width:100%;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 3px solid gray;
+	border-radius: 12px;
+	padding:5px;
+}
+
+.content {
+	margin-top: 40px;
+}
+
+.footer {
+	background-color: gray;
+	height:90px;
+	margin-top: 70px;
+}
+
+p {
+	text-align:center;
+	font-size: 23px;
+}
+
+h1 {
+	font-family: 'Lucida Calligraphy New', sans-serif;
+	text-align: center;
+	font-size: 42px;
+	
+}
+
+.one_one {
+	font-size: 80px;
+}
+
+.one_one_name {
+	font-size:50px;
+}
+
+.one_name {
+	margin-top: 15px;
+}
+
+.one_text {
+	margin-top: 20px;
+}
+
+.one_one_text {
+	text-align: center;
+}
+
+.one_photo {
+	display: grid;
+	grid-template-columns:1fr 250px 1fr ;
+	grid-column-gap: 50px;
+	padding-top:60px;
+}
+
+.two_photo {
+	display: grid;
+	grid-template-columns:1fr 250px 1fr ;
+	grid-column-gap: 50px;
+	padding-top:60px;
+}
+.thre_photo {
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	grid-column-gap: 80px;
+	padding-top:60px;
+}
+
+.limg{
+	display: grid;
+	justify-content:end;
+}
+.rimg{
+	display: grid;
+	justify-content:start;
+}
+.cimg {
+	display: grid;
+	justify-content:center;
+}
+
+img {
+	width: 200px;
+}
+
+.prise {
+	padding-top:150px;
+}
+
+.name_prise {
+	font-size: 50px;
+	font-family: 'Book Antiqua', sans-serif;
+}
+
+.info_prise {
+	padding-top:20px;
+}
+
+.forma {
+	margin:0 auto;
+	width:500px;
+	height:600px;
+	border: 2px solid black;
+	margin-top:70px;
+}
